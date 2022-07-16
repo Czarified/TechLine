@@ -1,0 +1,15 @@
+TechLine
+ 
+Switch List for Marlin Bros Concrete Co
+Valid 7/15/2022 23:32
+ 
+Scheduled work for train (Test Train) Cranwich Local Test
+Departs Cranwich Yard at 00:00 expected arrival 00:47, arrives Southbound
+Train departs Marlin Bros Concrete Co Southbound with 0 cars, 0 meters, 0 tons
+No car pick ups for train (Test Train) at this location
+No car set outs for train (Test Train) at this location
+ 
+ 
+Switch List by Track
+ 
+Spur

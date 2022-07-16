@@ -1,0 +1,19 @@
+TechLine
+ 
+Switch List for Jones Lumber and Plywood
+Valid 7/15/2022 23:32
+ 
+Scheduled work for train (Test Train) Cranwich Local Test
+Departs Cranwich Yard at 00:00 expected arrival 00:15, arrives Westbound
+ [ ] Set out TML 7544 Boxcar 14m Green L to Spur 1  
+Train departs Jones Lumber and Plywood Westbound with 3 cars, 45 meters, 120 tons
+No car pick ups for train (Test Train) at this location
+ 
+ 
+Switch List by Track
+ 
+Spur 1
+Scheduled work for train (Test Train) Cranwich Local Test
+ [ ] Set out TML 7544 Boxcar 14m Green L to Spur 1  
+ 
+Spur 2

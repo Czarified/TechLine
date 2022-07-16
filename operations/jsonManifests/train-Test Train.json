@@ -1,0 +1,761 @@
+{
+  "railroad" : "TechLine",
+  "userName" : "Test Train",
+  "description" : "Cranwich Local Test",
+  "locations" : [ {
+    "userName" : "Cranwich Yard",
+    "name" : "1r1",
+    "departureTime" : "00:00",
+    "location" : {
+      "comment" : "A freight yard just north of Cranwich Central. Has a 4-line freight ladder, a 3-line coach yard, and integral spur for Gibster Ice Co.",
+      "name" : "1"
+    },
+    "comment" : "",
+    "engines" : {
+      "add" : [ ],
+      "remove" : [ ]
+    },
+    "track" : {
+      "1s7" : {
+        "add" : "",
+        "comment" : ""
+      },
+      "1s2" : {
+        "add" : "",
+        "comment" : ""
+      }
+    },
+    "trainDirection" : 8,
+    "length" : {
+      "length" : 75,
+      "unit" : "Meters"
+    },
+    "weight" : 200,
+    "cars" : {
+      "add" : [ {
+        "name" : "AA1683",
+        "number" : "1683",
+        "road" : "AA",
+        "rfid" : "",
+        "carType" : "Boxcar",
+        "carSubType" : null,
+        "length" : 14,
+        "weight" : 2.0,
+        "weightTons" : 40.0,
+        "color" : "Blue",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Cranwich Yard",
+          "name" : "1",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Freight 1",
+            "name" : "1s2"
+          }
+        },
+        "destination" : {
+          "userName" : "Leyland Furniture Co",
+          "name" : "6",
+          "route" : "1r3",
+          "track" : {
+            "userName" : "Spur",
+            "name" : "6s1"
+          }
+        },
+        "load" : "L",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : null,
+        "utility" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "TML7544",
+        "number" : "7544",
+        "road" : "TML",
+        "rfid" : "",
+        "carType" : "Boxcar",
+        "carSubType" : null,
+        "length" : 14,
+        "weight" : 2.0,
+        "weightTons" : 40.0,
+        "color" : "Green",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Cranwich Yard",
+          "name" : "1",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Freight 1",
+            "name" : "1s2"
+          }
+        },
+        "destination" : {
+          "userName" : "Jones Lumber and Plywood",
+          "name" : "7",
+          "route" : "1r4",
+          "track" : {
+            "userName" : "Spur 1",
+            "name" : "7s1"
+          }
+        },
+        "load" : "L",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : null,
+        "utility" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "TML7545",
+        "number" : "7545",
+        "road" : "TML",
+        "rfid" : "",
+        "carType" : "Boxcar",
+        "carSubType" : null,
+        "length" : 14,
+        "weight" : 2.0,
+        "weightTons" : 40.0,
+        "color" : "Red",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Cranwich Yard",
+          "name" : "1",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Coach 1",
+            "name" : "1s7"
+          }
+        },
+        "destination" : {
+          "userName" : "Harrison Shipping",
+          "name" : "8",
+          "route" : "1r5",
+          "track" : {
+            "userName" : "Spur",
+            "name" : "8s1"
+          }
+        },
+        "load" : "L",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : null,
+        "utility" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "AFK1234",
+        "number" : "1234",
+        "road" : "AFK",
+        "rfid" : "",
+        "carType" : "Boxcar",
+        "carSubType" : null,
+        "length" : 14,
+        "weight" : 2.0,
+        "weightTons" : 40.0,
+        "color" : "White",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Cranwich Yard",
+          "name" : "1",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Freight 1",
+            "name" : "1s2"
+          }
+        },
+        "destination" : {
+          "userName" : "Cranwich Warehouses",
+          "name" : "3",
+          "route" : "1r6",
+          "track" : {
+            "userName" : "Warehouse A",
+            "name" : "3s1"
+          }
+        },
+        "load" : "L",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : null,
+        "utility" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      }, {
+        "name" : "AFK1235",
+        "number" : "1235",
+        "road" : "AFK",
+        "rfid" : "",
+        "carType" : "Boxcar",
+        "carSubType" : null,
+        "length" : 14,
+        "weight" : 2.0,
+        "weightTons" : 40.0,
+        "color" : "White",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Cranwich Yard",
+          "name" : "1",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Freight 1",
+            "name" : "1s2"
+          }
+        },
+        "destination" : {
+          "userName" : "Herrin Tool Shop",
+          "name" : "9",
+          "route" : "1r7",
+          "track" : {
+            "userName" : "Spur A",
+            "name" : "9s1"
+          }
+        },
+        "load" : "L",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : null,
+        "utility" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      } ],
+      "remove" : [ ],
+      "total" : 5,
+      "loads" : 5,
+      "empties" : 0
+    }
+  }, {
+    "userName" : "Barton's Brewery",
+    "name" : "1r2",
+    "arrivalTime" : "00:04",
+    "expectedDepartureTime" : "00:04",
+    "location" : {
+      "comment" : "",
+      "name" : "5"
+    },
+    "comment" : "",
+    "engines" : {
+      "add" : [ ],
+      "remove" : [ ]
+    },
+    "track" : { },
+    "trainDirection" : 2,
+    "length" : {
+      "length" : 75,
+      "unit" : "Meters"
+    },
+    "weight" : 200,
+    "cars" : {
+      "add" : [ ],
+      "remove" : [ ],
+      "total" : 5,
+      "loads" : 5,
+      "empties" : 0
+    }
+  }, {
+    "userName" : "Leyland Furniture Co",
+    "name" : "1r3",
+    "arrivalTime" : "00:08",
+    "expectedDepartureTime" : "00:11",
+    "location" : {
+      "comment" : "",
+      "name" : "6"
+    },
+    "comment" : "",
+    "engines" : {
+      "add" : [ ],
+      "remove" : [ ]
+    },
+    "track" : {
+      "6s1" : {
+        "remove" : "",
+        "comment" : ""
+      }
+    },
+    "trainDirection" : 2,
+    "length" : {
+      "length" : 60,
+      "unit" : "Meters"
+    },
+    "weight" : 160,
+    "cars" : {
+      "add" : [ ],
+      "remove" : [ {
+        "name" : "AA1683",
+        "number" : "1683",
+        "road" : "AA",
+        "rfid" : "",
+        "carType" : "Boxcar",
+        "carSubType" : null,
+        "length" : 14,
+        "weight" : 2.0,
+        "weightTons" : 40.0,
+        "color" : "Blue",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Cranwich Yard",
+          "name" : "1",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Freight 1",
+            "name" : "1s2"
+          }
+        },
+        "destination" : {
+          "userName" : "Leyland Furniture Co",
+          "name" : "6",
+          "route" : "1r3",
+          "track" : {
+            "userName" : "Spur",
+            "name" : "6s1"
+          }
+        },
+        "load" : "L",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : null,
+        "utility" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      } ],
+      "total" : 4,
+      "loads" : 4,
+      "empties" : 0
+    }
+  }, {
+    "userName" : "Jones Lumber and Plywood",
+    "name" : "1r4",
+    "arrivalTime" : "00:15",
+    "expectedDepartureTime" : "00:18",
+    "location" : {
+      "comment" : "",
+      "name" : "7"
+    },
+    "comment" : "",
+    "engines" : {
+      "add" : [ ],
+      "remove" : [ ]
+    },
+    "track" : {
+      "7s1" : {
+        "remove" : "",
+        "comment" : ""
+      }
+    },
+    "trainDirection" : 2,
+    "length" : {
+      "length" : 45,
+      "unit" : "Meters"
+    },
+    "weight" : 120,
+    "cars" : {
+      "add" : [ ],
+      "remove" : [ {
+        "name" : "TML7544",
+        "number" : "7544",
+        "road" : "TML",
+        "rfid" : "",
+        "carType" : "Boxcar",
+        "carSubType" : null,
+        "length" : 14,
+        "weight" : 2.0,
+        "weightTons" : 40.0,
+        "color" : "Green",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Cranwich Yard",
+          "name" : "1",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Freight 1",
+            "name" : "1s2"
+          }
+        },
+        "destination" : {
+          "userName" : "Jones Lumber and Plywood",
+          "name" : "7",
+          "route" : "1r4",
+          "track" : {
+            "userName" : "Spur 1",
+            "name" : "7s1"
+          }
+        },
+        "load" : "L",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : null,
+        "utility" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      } ],
+      "total" : 3,
+      "loads" : 3,
+      "empties" : 0
+    }
+  }, {
+    "userName" : "Harrison Shipping",
+    "name" : "1r5",
+    "arrivalTime" : "00:22",
+    "expectedDepartureTime" : "00:25",
+    "location" : {
+      "comment" : "",
+      "name" : "8"
+    },
+    "comment" : "",
+    "engines" : {
+      "add" : [ ],
+      "remove" : [ ]
+    },
+    "track" : {
+      "8s1" : {
+        "remove" : "",
+        "comment" : ""
+      }
+    },
+    "trainDirection" : 2,
+    "length" : {
+      "length" : 30,
+      "unit" : "Meters"
+    },
+    "weight" : 80,
+    "cars" : {
+      "add" : [ ],
+      "remove" : [ {
+        "name" : "TML7545",
+        "number" : "7545",
+        "road" : "TML",
+        "rfid" : "",
+        "carType" : "Boxcar",
+        "carSubType" : null,
+        "length" : 14,
+        "weight" : 2.0,
+        "weightTons" : 40.0,
+        "color" : "Red",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Cranwich Yard",
+          "name" : "1",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Coach 1",
+            "name" : "1s7"
+          }
+        },
+        "destination" : {
+          "userName" : "Harrison Shipping",
+          "name" : "8",
+          "route" : "1r5",
+          "track" : {
+            "userName" : "Spur",
+            "name" : "8s1"
+          }
+        },
+        "load" : "L",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : null,
+        "utility" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      } ],
+      "total" : 2,
+      "loads" : 2,
+      "empties" : 0
+    }
+  }, {
+    "userName" : "Cranwich Warehouses",
+    "name" : "1r6",
+    "arrivalTime" : "00:29",
+    "expectedDepartureTime" : "00:32",
+    "location" : {
+      "comment" : "",
+      "name" : "3"
+    },
+    "comment" : "",
+    "engines" : {
+      "add" : [ ],
+      "remove" : [ ]
+    },
+    "track" : {
+      "3s1" : {
+        "remove" : "",
+        "comment" : ""
+      }
+    },
+    "trainDirection" : 1,
+    "length" : {
+      "length" : 15,
+      "unit" : "Meters"
+    },
+    "weight" : 40,
+    "cars" : {
+      "add" : [ ],
+      "remove" : [ {
+        "name" : "AFK1234",
+        "number" : "1234",
+        "road" : "AFK",
+        "rfid" : "",
+        "carType" : "Boxcar",
+        "carSubType" : null,
+        "length" : 14,
+        "weight" : 2.0,
+        "weightTons" : 40.0,
+        "color" : "White",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Cranwich Yard",
+          "name" : "1",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Freight 1",
+            "name" : "1s2"
+          }
+        },
+        "destination" : {
+          "userName" : "Cranwich Warehouses",
+          "name" : "3",
+          "route" : "1r6",
+          "track" : {
+            "userName" : "Warehouse A",
+            "name" : "3s1"
+          }
+        },
+        "load" : "L",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : null,
+        "utility" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      } ],
+      "total" : 1,
+      "loads" : 1,
+      "empties" : 0
+    }
+  }, {
+    "userName" : "Cranwich Fuel Import Ltd",
+    "name" : "1r9",
+    "arrivalTime" : "00:36",
+    "expectedDepartureTime" : "00:36",
+    "location" : {
+      "comment" : "",
+      "name" : "4"
+    },
+    "comment" : "",
+    "engines" : {
+      "add" : [ ],
+      "remove" : [ ]
+    },
+    "track" : { },
+    "trainDirection" : 4,
+    "length" : {
+      "length" : 15,
+      "unit" : "Meters"
+    },
+    "weight" : 40,
+    "cars" : {
+      "add" : [ ],
+      "remove" : [ ],
+      "total" : 1,
+      "loads" : 1,
+      "empties" : 0
+    }
+  }, {
+    "userName" : "Herrin Tool Shop",
+    "name" : "1r7",
+    "arrivalTime" : "00:40",
+    "expectedDepartureTime" : "00:43",
+    "location" : {
+      "comment" : "",
+      "name" : "9"
+    },
+    "comment" : "",
+    "engines" : {
+      "add" : [ ],
+      "remove" : [ ]
+    },
+    "track" : {
+      "9s1" : {
+        "remove" : "",
+        "comment" : ""
+      }
+    },
+    "trainDirection" : 8,
+    "length" : {
+      "length" : 0,
+      "unit" : "Meters"
+    },
+    "weight" : 0,
+    "cars" : {
+      "add" : [ ],
+      "remove" : [ {
+        "name" : "AFK1235",
+        "number" : "1235",
+        "road" : "AFK",
+        "rfid" : "",
+        "carType" : "Boxcar",
+        "carSubType" : null,
+        "length" : 14,
+        "weight" : 2.0,
+        "weightTons" : 40.0,
+        "color" : "White",
+        "owner" : "",
+        "built" : "",
+        "comment" : "",
+        "outOfService" : false,
+        "location" : {
+          "userName" : "Cranwich Yard",
+          "name" : "1",
+          "route" : "1r1",
+          "track" : {
+            "userName" : "Freight 1",
+            "name" : "1s2"
+          }
+        },
+        "destination" : {
+          "userName" : "Herrin Tool Shop",
+          "name" : "9",
+          "route" : "1r7",
+          "track" : {
+            "userName" : "Spur A",
+            "name" : "9s1"
+          }
+        },
+        "load" : "L",
+        "hazardous" : false,
+        "caboose" : false,
+        "passenger" : false,
+        "fred" : false,
+        "removeComment" : "",
+        "addComment" : "",
+        "kernel" : null,
+        "utility" : false,
+        "finalDestination" : null,
+        "returnWhenEmpty" : null,
+        "status" : ""
+      } ],
+      "total" : 0,
+      "loads" : 0,
+      "empties" : 0
+    }
+  }, {
+    "userName" : "Marlin Bros Concrete Co",
+    "name" : "1r8",
+    "arrivalTime" : "00:47",
+    "expectedDepartureTime" : "00:47",
+    "location" : {
+      "comment" : "",
+      "name" : "11"
+    },
+    "comment" : "",
+    "engines" : {
+      "add" : [ ],
+      "remove" : [ ]
+    },
+    "track" : { },
+    "trainDirection" : 8,
+    "length" : {
+      "length" : 0,
+      "unit" : "Meters"
+    },
+    "weight" : 0,
+    "cars" : {
+      "add" : [ ],
+      "remove" : [ ],
+      "total" : 0,
+      "loads" : 0,
+      "empties" : 0
+    }
+  }, {
+    "userName" : "Cranwich Yard",
+    "name" : "1r10",
+    "arrivalTime" : "00:51",
+    "expectedDepartureTime" : "00:51",
+    "location" : {
+      "comment" : "A freight yard just north of Cranwich Central. Has a 4-line freight ladder, a 3-line coach yard, and integral spur for Gibster Ice Co.",
+      "name" : "1"
+    },
+    "comment" : "",
+    "engines" : {
+      "add" : [ ],
+      "remove" : [ ]
+    },
+    "TrainTerminatesIn" : "Cranwich Yard",
+    "cars" : {
+      "add" : [ ],
+      "remove" : [ ]
+    }
+  } ],
+  "date" : "2022-07-16T02:51:00.050+0000"
+}

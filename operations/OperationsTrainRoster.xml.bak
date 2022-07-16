@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/operations-trains.xsl" type="text/xsl"?>
+<!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-trains.dtd">
+<operations-config>
+  <!--Written by JMRI version 4.26+R381c8dfc32 on Fri Jul 15 22:52:25 EDT 2022-->
+  <options>
+    <trainOptions buildMessages="true" buildReport="false" printPreview="false" openFile="false" runFile="false" trainAction="Move" />
+    <conductorOptions showHyphenName="false" />
+    <rowColorOptions rowColorManual="true" rowColorBuidFailed="" rowColorBuilt="" rowColorTrainEnRoute="" rowColorTerminated="" />
+    <manifestCreator>
+      <directory name="csvManifests" />
+      <runFile name="MC4JMRI.xls" />
+      <commonFile name="CSVFilesFile.txt" />
+    </manifestCreator>
+    <switchlistCreator>
+      <directory name="csvSwitchLists" />
+      <runFile name="MC4JMRI.xls" />
+      <commonFile name="CSVFilesFile.txt" />
+    </switchlistCreator>
+  </options>
+  <trains>
+    <train id="1" name="Test Train" description="Cranwich Local Test" departHour="00" departMinute="00" current="1r1" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="true" build="true" buildFailed="false" buildFailedMessage="" printed="true" modified="false" switchListStatus="" status="Partial 5/13 cars" TerminationDate="7/15/2022 22:45" RequestedCars="13" statusCode="20" oldStatusCode="65535" comment="" showTimes="true">
+      <rowColor name="" resetRowColor="" />
+      <route name="Cranwich Local Delivery" id="1" />
+      <types>
+        <carType name="Baggage" />
+        <carType name="Boxcar" />
+        <carType name="Caboose" />
+        <carType name="Coal" />
+        <carType name="Coilcar" />
+        <carType name="FlatBHPaper" />
+        <carType name="FlatBHWood" />
+        <carType name="FlatBulkHead" />
+        <carType name="FlatTimber" />
+        <carType name="FlatTrailer" />
+        <carType name="FlatWood" />
+        <carType name="Flatcar" />
+        <carType name="Gon-scrap" />
+        <carType name="Gondola" />
+        <carType name="HopChem" />
+        <carType name="HopCmnt" />
+        <carType name="HopCoal" />
+        <carType name="HopCoal-Ety" />
+        <carType name="HopGrain" />
+        <carType name="HopSand" />
+        <carType name="Hopper" />
+        <carType name="MOW" />
+        <carType name="MOWBox" />
+        <carType name="Passenger" />
+        <carType name="ReefMech" />
+        <carType name="Reefer" />
+        <carType name="ReeferIce" />
+        <carType name="Stock" />
+        <carType name="Tank Food" />
+        <carType name="Tank Gas" />
+        <carType name="Tank Kero" />
+        <carType name="Tank Oil" />
+        <carType name="Tank Veg" />
+        <locoType name="Diesel" />
+        <locoType name="Electric" />
+        <locoType name="Engine" />
+        <locoType name="Gas Turbine" />
+        <locoType name="Steam" />
+        <locoType name="Steam-heavy" />
+        <locoType name="Steam-light" />
+        <locoType name="Steam-mixed" />
+        <locoType name="Steam-pass" />
+        <locoType name="Switcher" />
+      </types>
+    </train>
+  </trains>
+  <trainScheduleOptions activeId="" />
+  <schedules>
+    <schedule id="1" name="Sunday" trainIds="" />
+    <schedule id="2" name="Monday" trainIds="" />
+    <schedule id="3" name="Tuesday" trainIds="" />
+    <schedule id="4" name="Wednesday" trainIds="" />
+    <schedule id="5" name="Thursday" trainIds="" />
+    <schedule id="6" name="Friday" trainIds="" />
+    <schedule id="7" name="Saturday" trainIds="" />
+  </schedules>
+  <automations />
+</operations-config>

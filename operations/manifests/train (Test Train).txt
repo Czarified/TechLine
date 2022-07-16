@@ -1,0 +1,40 @@
+TechLine
+ 
+Manifest for train (Test Train) Cranwich Local Test
+Valid 7/15/2022 22:51
+ 
+Scheduled work at Cranwich Yard, departure time 00:00
+ [ ] Pick up AA 1683 Boxcar 14m Blue L from Freight 1  
+ [ ] Pick up TML 7544 Boxcar 14m Green L from Freight 1  
+ [ ] Pick up TML 7545 Boxcar 14m Red L from Coach 1  
+ [ ] Pick up AFK 1234 Boxcar 14m White L from Freight 1  
+ [ ] Pick up AFK 1235 Boxcar 14m White L from Freight 1  
+Train departs Cranwich Yard Southbound with 5 cars, 75 meters, 200 tons
+ 
+No work at Barton's Brewery
+ 
+Scheduled work at Leyland Furniture Co, arrival time 00:08
+ [ ] Set out AA 1683 Boxcar 14m Blue L to Spur  
+Train departs Leyland Furniture Co Westbound with 4 cars, 60 meters, 160 tons
+ 
+Scheduled work at Jones Lumber and Plywood, arrival time 00:15
+ [ ] Set out TML 7544 Boxcar 14m Green L to Spur 1  
+Train departs Jones Lumber and Plywood Westbound with 3 cars, 45 meters, 120 tons
+ 
+Scheduled work at Harrison Shipping, arrival time 00:22
+ [ ] Set out TML 7545 Boxcar 14m Red L to Spur  
+Train departs Harrison Shipping Westbound with 2 cars, 30 meters, 80 tons
+ 
+Scheduled work at Cranwich Warehouses, arrival time 00:29
+ [ ] Set out AFK 1234 Boxcar 14m White L to Warehouse A  
+Train departs Cranwich Warehouses Eastbound with 1 cars, 15 meters, 40 tons
+ 
+No work at Cranwich Fuel Import Ltd
+ 
+Scheduled work at Herrin Tool Shop, arrival time 00:40
+ [ ] Set out AFK 1235 Boxcar 14m White L to Spur A  
+Train departs Herrin Tool Shop Southbound with 0 cars, 0 meters, 0 tons
+ 
+No work at Marlin Bros Concrete Co
+ 
+Train terminates in Cranwich Yard

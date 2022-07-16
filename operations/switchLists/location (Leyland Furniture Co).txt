@@ -1,0 +1,17 @@
+TechLine
+ 
+Switch List for Leyland Furniture Co
+Valid 7/15/2022 23:32
+ 
+Scheduled work for train (Test Train) Cranwich Local Test
+Departs Cranwich Yard at 00:00 expected arrival 00:08, arrives Westbound
+ [ ] Set out AA 1683 Boxcar 14m Blue L to Spur  
+Train departs Leyland Furniture Co Westbound with 4 cars, 60 meters, 160 tons
+No car pick ups for train (Test Train) at this location
+ 
+ 
+Switch List by Track
+ 
+Spur
+Scheduled work for train (Test Train) Cranwich Local Test
+ [ ] Set out AA 1683 Boxcar 14m Blue L to Spur  

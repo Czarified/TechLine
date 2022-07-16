@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
+    <connections xmlns="http://jmri.org/xml/schema/auxiliary-configuration/connections-2-9-6.xsd">
+        <connection xmlns="" class="jmri.jmrix.internal.configurexml.ConnectionConfigXml" disabled="no" manufacturer="None" reconnectMaxAttempts="100" reconnectMaxInterval="120" systemPrefix="I2" userName="Internal2">
+            <options/>
+        </connection>
+    </connections>
+</auxiliary-configuration>

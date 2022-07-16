@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/operations-routes.xsl" type="text/xsl"?>
+<!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-routes.dtd">
+<operations-config>
+  <!--Written by JMRI version 4.26+R381c8dfc32 on Fri Jul 15 22:50:02 EDT 2022-->
+  <routes>
+    <route id="1" name="Cranwich Local Delivery" comment="Delivers from Cranwich Yard to Local industries">
+      <location id="1r1" name="Cranwich Yard" locationId="1" sequenceId="1" trainDirection="8" maxTrainLength="1000" grade="0.0" maxCarMoves="5" randomControl="10" pickups="yes" drops="no" wait="0" departTime="" order="1" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="1r2" name="Barton's Brewery" locationId="5" sequenceId="2" trainDirection="2" maxTrainLength="1000" grade="0.0" maxCarMoves="1" randomControl="10" pickups="yes" drops="yes" wait="0" departTime="" order="2" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="1r3" name="Leyland Furniture Co" locationId="6" sequenceId="3" trainDirection="2" maxTrainLength="1000" grade="0.0" maxCarMoves="1" randomControl="10" pickups="yes" drops="yes" wait="0" departTime="" order="3" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="1r4" name="Jones Lumber and Plywood" locationId="7" sequenceId="4" trainDirection="2" maxTrainLength="1000" grade="0.0" maxCarMoves="2" randomControl="10" pickups="yes" drops="yes" wait="0" departTime="" order="4" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="1r5" name="Harrison Shipping" locationId="8" sequenceId="5" trainDirection="2" maxTrainLength="1000" grade="0.0" maxCarMoves="2" randomControl="10" pickups="yes" drops="yes" wait="0" departTime="" order="5" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="1r6" name="Cranwich Warehouses" locationId="3" sequenceId="6" trainDirection="1" maxTrainLength="1000" grade="0.0" maxCarMoves="5" randomControl="10" pickups="yes" drops="yes" wait="0" departTime="" order="6" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="1r9" name="Cranwich Fuel Import Ltd" locationId="4" sequenceId="7" trainDirection="4" maxTrainLength="1000" grade="0.0" maxCarMoves="3" randomControl="10" pickups="yes" drops="yes" wait="0" departTime="" order="7" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="1r7" name="Herrin Tool Shop" locationId="9" sequenceId="8" trainDirection="8" maxTrainLength="1000" grade="0.0" maxCarMoves="2" randomControl="10" pickups="yes" drops="yes" wait="0" departTime="" order="8" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="1r8" name="Marlin Bros Concrete Co" locationId="11" sequenceId="9" trainDirection="2" maxTrainLength="1000" grade="0.0" maxCarMoves="1" randomControl="10" pickups="yes" drops="yes" wait="0" departTime="" order="9" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+      <location id="1r10" name="Cranwich Yard" locationId="1" sequenceId="10" trainDirection="4" maxTrainLength="1000" grade="0.0" maxCarMoves="5" randomControl="Off" pickups="no" drops="yes" wait="0" departTime="" order="10" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+    </route>
+  </routes>
+</operations-config>

@@ -1,0 +1,51 @@
+TechLine
+ 
+Switch List for Cranwich Yard
+Valid 7/15/2022 23:32
+ 
+Scheduled work for train (Test Train) Cranwich Local Test
+Departs Cranwich Yard Southbound at 00:00
+ [ ] Pick up AA 1683 Boxcar 14m Blue L from Freight 1  
+ [ ] Pick up TML 7544 Boxcar 14m Green L from Freight 1  
+ [ ] Pick up TML 7545 Boxcar 14m Red L from Coach 1  
+ [ ] Pick up AFK 1234 Boxcar 14m White L from Freight 1  
+ [ ] Pick up AFK 1235 Boxcar 14m White L from Freight 1  
+Train departs Cranwich Yard Southbound with 5 cars, 75 meters, 200 tons
+ 
+Visit number 2 for train (Test Train) expected arrival 00:51, terminates Cranwich Yard
+No car set outs for train (Test Train) at this location
+ 
+ 
+Switch List by Track
+ 
+Coach 1
+Hold SP 4522 Boxcar
+Scheduled work for train (Test Train) Cranwich Local Test
+ [ ] Pick up TML 7545 Boxcar 14m Red L from Coach 1  
+ 
+Coach 2
+ 
+Coach 3
+ 
+Freight 1
+Hold ATSF 6857 Boxcar
+Hold ATSF 6858 Boxcar
+Hold CP 7485 Boxcar
+Hold HIL 6574 Boxcar
+Hold MILW 6245 Boxcar
+Hold TI 1598 Boxcar
+Hold TI 4587 Boxcar
+Hold TI 4588 Boxcar
+Scheduled work for train (Test Train) Cranwich Local Test
+ [ ] Pick up AFK 1234 Boxcar 14m White L from Freight 1  
+ [ ] Pick up AFK 1235 Boxcar 14m White L from Freight 1  
+ [ ] Pick up TML 7544 Boxcar 14m Green L from Freight 1  
+ [ ] Pick up AA 1683 Boxcar 14m Blue L from Freight 1  
+ 
+Freight 2
+ 
+Freight 3
+ 
+Freight 4
+ 
+Gibster Ice Co.
