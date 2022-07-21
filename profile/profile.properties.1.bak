@@ -1,5 +1,5 @@
 #JMRI Preferences version 4.26+R381c8dfc32
-#Mon Jul 04 18:05:40 EDT 2022
+#Sun Jul 17 17:39:19 BST 2022
 apps-systemconsole.fontSize=12
 apps-systemconsole.fontStyle=0
 apps-systemconsole.scheme=0
@@ -22,6 +22,11 @@ jmri-jmrit-symbolicprog.showCvNumbers=false
 jmri-jmrit-symbolicprog.showEmptyPanes=true
 jmri-jmrix-loconet-loconetovertcp.port=1234
 jmri-managers.allInternalDefaults=false
+jmri-managers.defaults.jmri-AddressedProgrammerManager=Internal
+jmri-managers.defaults.jmri-ConsistManager=Internal
+jmri-managers.defaults.jmri-GlobalProgrammerManager=Internal
+jmri-managers.defaults.jmri-PowerManager=Internal
+jmri-managers.defaults.jmri-ThrottleManager=Internal
 jmri-server-json.heartbeatInterval=15000
 jmri-server-json.port=2056
 jmri-server-json.validateClientMessages=false
