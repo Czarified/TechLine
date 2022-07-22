@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-config.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-config.dtd">
 <operations-config>
-  <!--Written by JMRI version 4.26+R381c8dfc32 on Fri Jul 22 00:45:30 BST 2022-->
+  <!--Written by JMRI version 4.26+R381c8dfc32 on Mon Jul 04 18:05:40 EDT 2022-->
   <operations>
     <setup comment="" />
     <settings mainMenu="true" closeOnSave="false" autoSave="true" autoBackup="true" trainDirection="15" trainLength="1000" maxEngines="6" hpt="1" scale="6" carTypes="Descriptive" switchTime="3" travelTime="4" showValue="false" valueLabel="Value" showRfid="false" rfidLabel="ID Tag" lengthUnit="Meters" yearModeled="" />
@@ -16,7 +16,7 @@
     <switchListPickupCarFormat prefix=" [ ] Pick up" setting="Road,Number,Type,Length,Color,Load,Hazardous,Location,Comment,PickUp Msg," />
     <switchListDropCarFormat prefix=" [ ] Set out" setting="Road,Number,Type,Length,Color,Load,Hazardous,Destination,Comment,SetOut Msg," />
     <switchListLocalFormat prefix=" [ ] Move" setting="Road,Number,Type,Length,Color,Load,Hazardous,Location,Destination,Comment," />
-    <panel name="Cranwich Yard" trainIconXY="true" trainIconAppend="false" />
+    <panel name="Panel" trainIconXY="true" trainIconAppend="false" />
     <fontName name="Monospaced" />
     <fontSize size="10" />
     <pageOrientation manifest="Portrait" switchList="Portrait" />
