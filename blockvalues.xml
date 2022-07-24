@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/blockValues.xsl" type="text/xsl"?>
 <!DOCTYPE block_values SYSTEM "/xml/DTD/block-values.dtd">
 <block_values>
-  <!--Written by JMRI version 4.26+R381c8dfc32 on Fri Jul 22 00:45:44 BST 2022-->
+  <!--Written by JMRI version 4.26+R381c8dfc32 on Sun Jul 24 03:28:49 BST 2022-->
   <blockvalues>
     <block systemname="IBCWYB002" value="t2" />
   </blockvalues>
